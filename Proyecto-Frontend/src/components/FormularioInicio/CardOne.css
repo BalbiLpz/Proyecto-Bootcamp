@@ -1,0 +1,41 @@
+.hidden {
+    display: none;
+}
+
+.cardTwo {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    top: 200px;  
+    left: 55%;
+    animation-name: cardOne;
+    animation-duration: 1.2s;
+    animation-timing-function: linear; 
+}
+
+@keyframes cardOne {
+    0% {
+        opacity: 0.1;
+        left: 0%;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    40% {
+        opacity: 0.4;
+    }
+
+    60%{
+        opacity: 0.4;
+    }
+    80%{
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-20px);
+    }
+}
