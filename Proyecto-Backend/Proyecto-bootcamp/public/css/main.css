@@ -1,0 +1,105 @@
+html,
+body {
+    height: 100%;
+}
+
+#fondo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#desplazarformulario {
+    float: left;
+    position: absolute;
+    right: 190px;
+}
+
+#principal {
+    position: absolute;
+    margin-top: 2%;
+    height: 1240px;
+    background-color: aliceblue;
+}
+
+#cabecera {
+    position: relative;
+    margin-top: 5%;
+}
+
+#titulo {
+    color: aliceblue;
+    font-size: 3rem;
+    background-color: green;
+    height: 85px;
+    margin-left: 15px;
+}
+
+#buscar {
+    position: relative;
+    float: right;
+    width: 300px;
+}
+
+#boton {
+    margin-top: 20px;
+}
+
+.titulo2 {
+    margin-top: 0px;
+}
+
+#imgpq {
+    margin-left: 100xp;
+}
+
+.formulario {
+    float: right;
+    background-color: white;
+    margin: 30vh 5vw;
+    -webkit-box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.59);
+    box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.59);
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+}
+
+.paneladmin {
+    height: 721.5px;
+    width: 1100px;
+    float: left;
+    background-color: white;
+    margin: 10vh 12.5vw;
+    -webkit-box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.59);
+    box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.59);
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+}
+
+.logo img {
+    position: absolute;
+    margin: 75vh 39vw;
+    width: 350px;
+    height: 200px;
+}
+
+#boton1 {
+    margin: 45vh 2vw;
+}
+
+#boton2 {
+    z-index: 10;
+    position: absolute;
+    margin: 1vh 44vw;
+}
+
+#boton0 {
+    position: absolute;
+    float: right;
+    margin: 45vh 88vw;
+}
